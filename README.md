@@ -1,4 +1,4 @@
-# Bitcoin Power Law
+# Bitcoin Asymmetric Power Law
 
 A Jupyter notebook that fits the Bitcoin Power Law to daily prices and draws it as charts you can read at a glance.
 
