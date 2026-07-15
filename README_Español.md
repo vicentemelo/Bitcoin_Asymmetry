@@ -8,7 +8,6 @@ precio ≈ A × (días desde el bloque génesis) ^ n
 
 El bloque génesis es el día 0 (3 de enero de 2009). En un gráfico log-log esa curva se convierte en una línea recta. El notebook ajusta la línea, mide qué tan bien se sostiene y muestra dónde está el precio de hoy frente a ella. El exponente ajustado sale cerca de `n ≈ 5.6`.
 
-Preview
 <img width="1638" height="652" alt="image" src="https://github.com/user-attachments/assets/181774cb-b66d-4a0d-a41c-96d6af1964ef" />
 
 ## Archivos
@@ -19,7 +18,6 @@ Preview
 | `BTC_daily.csv`           | Precios de cierre diarios de BTC (`Date,Price`) |
 | `requirements.txt`        | Paquetes de Python que necesita              |
 
-Preview
 <img width="1309" height="648" alt="image" src="https://github.com/user-attachments/assets/7a53d8f2-fd39-4bb7-8ade-af0156986699" />
 
 ## Cómo ejecutarlo
@@ -40,7 +38,6 @@ Ejecuta las celdas de arriba hacia abajo con Shift+Enter.
 
 Al abrirlo, la primera celda revisa la última fecha del CSV. Si está atrasada, baja los días que faltan desde Yahoo Finance hasta hoy, los agrega al archivo y sigue. Si estás sin conexión, simplemente usa los datos que ya están en el CSV.
 
-Preview
 <img width="1270" height="636" alt="image" src="https://github.com/user-attachments/assets/699ae9a2-4b4b-4688-b970-eb52bc3d37d6" />
 
 ## Qué muestra cada sección
