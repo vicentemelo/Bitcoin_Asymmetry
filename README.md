@@ -8,7 +8,6 @@ price ≈ A × (days since the genesis block) ^ n
 
 The genesis block is day 0 (3 January 2009). On a log-log chart that curve becomes a straight line. The notebook fits the line, measures how well it holds, and shows where today's price sits against it. The fitted exponent comes out near `n ≈ 5.6`.
 
-Preview
 <img width="1638" height="652" alt="image" src="https://github.com/user-attachments/assets/181774cb-b66d-4a0d-a41c-96d6af1964ef" />
 
 
@@ -20,7 +19,6 @@ Preview
 | `BTC_daily.csv`           | Daily BTC closing prices (`Date,Price`) |
 | `requirements.txt`        | Python packages it needs                |
 
-Preview
 <img width="1309" height="648" alt="image" src="https://github.com/user-attachments/assets/7a53d8f2-fd39-4bb7-8ade-af0156986699" />
 
 ## How to run
@@ -41,7 +39,6 @@ Run the cells from top to bottom with Shift+Enter.
 
 When you open it, the first cell checks the CSV's last date. If it is behind, it pulls the missing days from Yahoo Finance up to today, adds them to the file, and keeps going. If you are offline it just uses the data already in the CSV.
 
-Preview
 <img width="1270" height="636" alt="image" src="https://github.com/user-attachments/assets/699ae9a2-4b4b-4688-b970-eb52bc3d37d6" />
 
 
